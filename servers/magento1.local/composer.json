@@ -1,0 +1,23 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "magento/core": "1.9.2.2",
+        "riconeitzel/german-localepack-de-de": "dev-master",
+        "aoepeople/aoe_scheduler": "dev-master",
+        "tim-reynolds/magento-qconfig": "dev-master",
+        "firegento/magesetup": "dev-master",
+        "aoepeople/aoe_templatehints": "dev-master",
+        "yireo/yireo_checkout-tester": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "htdocs/",
+        "magento-deploystrategy": "symlink",
+        "magento-force": "override"
+    }
+}

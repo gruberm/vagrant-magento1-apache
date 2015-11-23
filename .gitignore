@@ -1,0 +1,11 @@
+.idea
+.vagrant
+.DS_Store
+servers/*
+!servers/magento1.local
+servers/magento1.local/*
+!servers/magento1.local/composer.json
+shell/prj/*
+!shell/prj/magento1.local.sh
+!shell/prj/magento1-phpmyadmin.local.sh
+temp
