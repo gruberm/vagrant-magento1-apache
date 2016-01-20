@@ -11,3 +11,4 @@ shell/prj/*
 !shell/prj/magento1-apcadmin.local.sh
 temp
 Vagrantfile
+ext
