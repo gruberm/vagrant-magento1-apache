@@ -8,4 +8,6 @@ servers/magento1.local/*
 shell/prj/*
 !shell/prj/magento1.local.sh
 !shell/prj/magento1-phpmyadmin.local.sh
+!shell/prj/magento1-apcadmin.local.sh
 temp
+Vagrantfile

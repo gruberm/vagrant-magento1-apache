@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
 
     # Project Setup
     config.vm.provision "shell", path: "shell/prj/magento1-phpmyadmin.local.sh"
+    config.vm.provision "shell", path: "shell/prj/magento1-apcadmin.local.sh"
     config.vm.provision "shell", path: "shell/prj/magento1.local.sh"
 
     if Vagrant::Util::Platform.windows?

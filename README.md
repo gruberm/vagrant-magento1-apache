@@ -18,6 +18,8 @@
   - mailcatcher on port 1080 (http://magento1.local:1080)
   - n98-magerun
   - composer
+  - memcache
+  - APC-Admin https://github.com/jithinjose2/APC-Admin (http://magento1-apcadmin.local)
 
 
 ## Default Configuration
@@ -57,6 +59,7 @@ $ sudo vi /etc/hosts
 
 ```sh
 10.42.42.42     magento1-phpmyadmin.local
+10.42.42.42     magento1-apcadmin.local
 10.42.42.42     magento1.local
 ```
 
